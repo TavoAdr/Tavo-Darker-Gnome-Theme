@@ -154,7 +154,7 @@ StEntry {
   selected-color: #ffffff;
   font-size: 11.25pt;
   font-weight: 400;
-  background-color: rgba(37, 37, 38, 0.01);
+  background-color: rgba(10, 10, 10, 0.01);
   border-color: transparent;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
 }
@@ -388,7 +388,7 @@ StScrollBar StButton#hhandle:active {
 .modal-dialog {
   border-radius: 5px;
   color: #ffffff;
-  background-color: #252526;
+  background-color: #0A0A0A;
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
 }
@@ -789,7 +789,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-sub-menu {
-  background-color: #252526;
+  background-color: #0A0A0A;
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.08);
 }
@@ -899,19 +899,19 @@ StScrollBar StButton#hhandle:active {
   -arrow-rise: 0;
   -arrow-box-shadow: none;
   margin: 5px 8px 12px 12px;
-  background-color: rgba(30, 30, 30, 0.95);
+  background-color: rgba(0, 0, 0, 0.95);
   border-radius: 5px;
   box-shadow: none;
-  border-color: 1px solid #252526;
+  border-color: 1px solid #0A0A0A;
 }
 
 .popup-menu-boxpointer .popup-menu-content {
   margin: 5px 8px 12px 12px;
   background-color: transparent;
-  background-color: #1e1e1e;
+  background-color: #000000;
   border-radius: 5px;
   box-shadow: 0 0px 1px rgba(250, 250, 250, 0.19);
-  border-color: 5px solid #252526;
+  border-color: 5px solid #0A0A0A;
 }
 
 .popup-separator-menu-item {
@@ -1088,8 +1088,8 @@ StScrollBar StButton#hhandle:active {
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
   color: #ffffff;
-  background-color: #1e1e1e;
-  border: 1px solid #252526;
+  background-color: #000000;
+  border: 1px solid #0A0A0A;
   box-shadow: none;
   border-radius: 5px;
   padding: 12px;
@@ -1115,7 +1115,7 @@ StScrollBar StButton#hhandle:active {
 
 /* TOP BAR */
 #panel {
-  background-color: #1e1e1e;
+  background-color: #000000;
   /* transition from solid to transparent */
   font-weight: bold;
   height: 28px;
@@ -2254,7 +2254,7 @@ StScrollBar StButton#hhandle:active {
   border-radius: 5px;
   padding: 7px 8px;
   color: #ffffff;
-  background-color: #252526;
+  background-color: #0A0A0A;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
   text-align: center;
   -x-offset: 8px;
@@ -2605,17 +2605,17 @@ StScrollBar StButton#hhandle:active {
   margin: 5px;
   border-radius: 5px;
   color: #ffffff;
-  background-color: #252526;
+  background-color: #0A0A0A;
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
 }
 
 .notification-banner:hover {
-  background-color: #252526;
+  background-color: #0A0A0A;
 }
 
 .notification-banner:focus {
-  background-color: #252526;
+  background-color: #0A0A0A;
 }
 
 .notification-banner .notification-icon {
@@ -3335,7 +3335,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #LookingGlassDialog {
-  background-color: #252526;
+  background-color: #0A0A0A;
   spacing: 4px;
   padding: 0;
   border: none;
@@ -3347,7 +3347,7 @@ StScrollBar StButton#hhandle:active {
   padding: 0 8px;
   border: none;
   border-radius: 0;
-  background-color: rgba(37, 37, 38, 0.01);
+  background-color: rgba(10, 10, 10, 0.01);
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.08);
 }
 
@@ -3376,7 +3376,7 @@ StScrollBar StButton#hhandle:active {
 #LookingGlassDialog .notebook-tab:selected {
   border-bottom-width: 0;
   border-color: transparent;
-  background-color: rgba(37, 37, 38, 0.01);
+  background-color: rgba(10, 10, 10, 0.01);
   box-shadow: inset 0 -2px 0px #5657f5;
   color: #ffffff;
   text-shadow: none;
@@ -3491,7 +3491,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #LookingGlassPropertyInspector {
-  background: #252526;
+  background: #0A0A0A;
   border: none;
   border-radius: 5px;
   padding: 6px;
@@ -3706,7 +3706,7 @@ StScrollBar StButton#hhandle:active {
   color: #ffffff;
   selection-background-color: #5657f5;
   selected-color: #ffffff;
-  background-color: rgba(37, 37, 38, 0.01);
+  background-color: rgba(10, 10, 10, 0.01);
   border-color: transparent;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
 }

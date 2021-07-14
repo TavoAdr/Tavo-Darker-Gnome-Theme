@@ -3184,10 +3184,14 @@ switch {
   min-width: 38px;
   border: 4px solid transparent;
   border-radius: 9999px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #252525;
   background-clip: padding-box;
   color: transparent;
   font-size: 0;
+}
+
+switch:hover {
+  background-color: #2E2E2E;
 }
 
 switch:disabled {
@@ -3195,8 +3199,12 @@ switch:disabled {
 }
 
 switch:checked {
-  background-color: rgba(72, 70, 99, 0.35);
+  background-color: #096bf0;
   color: transparent;
+}
+
+switch:checked:hover {
+  background-color: #2a82f6;
 }
 
 switch:checked:disabled {
@@ -3211,7 +3219,7 @@ switch slider {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
-  background-color: #0A0A0A;
+  background-color: #1B1B1B;
   color: transparent;
   background-position: center;
   background-repeat: no-repeat;
@@ -3219,14 +3227,19 @@ switch slider {
 }
 
 switch:hover slider {
+  background-color: #252525;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
 }
 
 switch:checked slider {
   transition: 100ms, box-shadow 100ms cubic-bezier(0, 0, 0.2, 1), margin 0;
-  background-color: #484663;
+  background-color: #0752b7;
   color: transparent;
   background-image: -gtk-scaled(url("assets/switch-slider-checked.png"), url("assets/switch-slider-checked@2.png"));
+}
+
+switch:checked slider:hover {
+  background-color: #0964dc;
 }
 
 switch:disabled slider {
@@ -3376,7 +3389,7 @@ radio {
 check:checked, check:indeterminate,
 radio:checked,
 radio:indeterminate {
-  color: #484663;
+  color: #1777f5;
 }
 
 check:checked:disabled, check:indeterminate:disabled,
@@ -3457,7 +3470,7 @@ radio {
 
 
 radio:checked:not(:indeterminate) {
-  border-image-source: -gtk-gradient(radial, center center, 0, center center, 0.1315789474, to(#484663), to(transparent));
+  border-image-source: -gtk-gradient(radial, center center, 0, center center, 0.1315789474, to(#1777f5), to(transparent));
 }
 
 
@@ -3811,7 +3824,7 @@ progressbar trough {
 progressbar progress {
   border-radius: 9999px;
   background-color: #0A0A0A;
-  background-image: linear-gradient(to left, #ba68c8, #7e57c2);
+  background-image: linear-gradient(to left, #1777f5, #0964dc);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;

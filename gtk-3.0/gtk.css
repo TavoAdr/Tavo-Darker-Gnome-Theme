@@ -884,16 +884,16 @@ headerbar button.destructive-action,
 headerbar button:not(.suggested-action):not(.destructive-action),
 button.close,
 button.circular {
-  border-radius: 9999px;
-  -gtk-outline-radius: 9999px;
+  border-radius: 7px;
+  -gtk-outline-radius: 7px;
 }
 
 .pluma-window paned.horizontal box.vertical box.horizontal button.flat, .gedit-search-slider button:dir(ltr), .gedit-search-slider button:dir(rtl), .gedit-document-panel row button.flat, .nautilus-window .floating-bar button, placessidebar row button.sidebar-button, notebook > header tab button.flat, spinbutton:not(.vertical) button {
   min-height: 20px;
   min-width: 20px;
   padding: 0;
-  border-radius: 9999px;
-  -gtk-outline-radius: 9999px;
+  border-radius: 7px;
+  -gtk-outline-radius: 7px;
 }
 
 stacksidebar row.needs-attention > label, .stack-switcher > button.needs-attention > label,
@@ -5029,7 +5029,7 @@ button.emoji-section:last-child {
  * Nautilus *
  ************/
 .nautilus-window headerbar .path-bar-box button {
-  border-radius: 100px;
+  border-radius: 10px;
   color: rgba(255, 255, 255, 0.7);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), rgba(255, 255, 255, 0.7) 0%, transparent 0%) 0 0 0/0 0 0;
 }
@@ -5159,7 +5159,7 @@ button.emoji-section:last-child {
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
-  border-radius: 100px;
+  border-radius: 10px;
   padding-left: 22px;
   margin-left: 6px;
   margin-right: 6px;
@@ -5170,7 +5170,7 @@ button.emoji-section:last-child {
 .nautilus-window headerbar .path-bar-box .linked.nautilus-path-bar button.image-button.text-button {
   margin-top: 0;
   margin-bottom: 0;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .nautilus-window headerbar .path-bar-box .linked.nautilus-path-bar button.text-button:not(:only-child):last-child,
@@ -7028,8 +7028,8 @@ window.solid-csd > box.vertical > box.vertical > toolbar.horizontal button {
   padding: 0;
   margin-top: 8px;
   margin-bottom: 8px;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 10px;
+  -gtk-outline-radius: 10px;
 }
 
 window.csd > box.vertical > box.vertical > frame,
@@ -7049,8 +7049,8 @@ window.background > box.vertical > box.vertical > toolbar .linked > button {
   min-height: 52px;
   padding: 0;
   margin: 0;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 10px;
+  -gtk-outline-radius: 10px;
 }
 
 window.background > box.vertical > toolbar.primary-toolbar toolitem:first-child .linked > button.image-button.raised {
@@ -7058,8 +7058,8 @@ window.background > box.vertical > toolbar.primary-toolbar toolitem:first-child 
   min-height: 52px;
   margin: 0;
   padding: 0;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 10px;
+  -gtk-outline-radius: 10px;
 }
 
 window.background > box.vertical > toolbar.primary-toolbar toolitem:first-child .linked > button.image-button.raised > widget > box > image {
@@ -7070,8 +7070,8 @@ window.background > box.vertical > toolbar.primary-toolbar toolitem .linked > bu
   min-height: 36px;
   min-width: 36px;
   padding: 0;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 10px;
+  -gtk-outline-radius: 10px;
 }
 
 window.background > box.vertical > toolbar.primary-toolbar toolitem button.flat.scale {
@@ -7080,8 +7080,8 @@ window.background > box.vertical > toolbar.primary-toolbar toolitem button.flat.
   padding: 0;
   margin-top: 12px;
   margin-bottom: 12px;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 10px;
+  -gtk-outline-radius: 10px;
 }
 
 /***********
@@ -8916,7 +8916,7 @@ headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-not
 }
 
 .budgie-panel box.titlebar > button.image-button.titlebutton image {
-  border-radius: 100px;
+  border-radius: 10px;
   background-size: 16px 16px;
   background-position: center center;
   background-repeat: no-repeat;

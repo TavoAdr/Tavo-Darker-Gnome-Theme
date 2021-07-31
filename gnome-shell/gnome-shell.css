@@ -394,7 +394,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog .modal-dialog-content-box {
-  padding: 24px;
+  padding: 12px;
 }
 
 .modal-dialog .run-dialog-entry {
@@ -458,7 +458,7 @@ StScrollBar StButton#hhandle:active {
 
 /* End Session Dialog */
 .end-session-dialog {
-  spacing: 42px;
+  spacing: 12px;
   border: none;
 }
 

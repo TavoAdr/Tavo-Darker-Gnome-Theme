@@ -5298,14 +5298,22 @@ button.emoji-section:last-child {
 
 .disk-space-display.unknown {
   background-color: #ff6d00;
+  color: #ff6d00;
 }
 
 .disk-space-display.used {
   background-color: #1777f5;
+  color: #1777f5;
 }
 
 .disk-space-display.free {
   background-color: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.12);
+}
+
+.disk-space-display {
+  background-color: #151515;
+  color: #151515;
 }
 
 .conflict-row:not(:selected) {

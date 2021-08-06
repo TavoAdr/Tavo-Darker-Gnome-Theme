@@ -595,8 +595,8 @@ button:checked {
 
 
 button:checked:disabled {
-  background-color: rgba(86, 87, 245, 0.3);
-  color: rgba(86, 87, 245, 0.5);
+  background-color: rgba(23, 119, 245, 0.3);
+  color: rgba(23, 119, 245, 0.5);
   background-image: none;
 }
 
@@ -1368,7 +1368,7 @@ headerbar button:not(.suggested-action):not(.destructive-action):checked {
 
 headerbar button:not(.suggested-action):not(.destructive-action):checked:disabled {
   color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(86, 87, 245, 0.5);
+  background-color: rgba(23, 119, 245, 0.5);
 }
 
 
@@ -1800,7 +1800,7 @@ treeview.view.progressbar:selected {
 }
 
 treeview.view.trough {
-  border-bottom: 4px solid rgba(86, 87, 245, 0.3);
+  border-bottom: 4px solid rgba(23, 119, 245, 0.3);
   box-shadow: none;
   background-color: transparent;
 }
@@ -2222,7 +2222,7 @@ popover.background.menu button.combo:checked:disabled, popover button:checked:di
 popover.background button:checked:disabled,
 popover.background.menu button:checked:disabled {
   color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(86, 87, 245, 0.5);
+  background-color: rgba(23, 119, 245, 0.5);
 }
 
 popover .linked entry,
@@ -4371,7 +4371,7 @@ stacksidebar row > label {
  * File chooser *
  ****************/
 .nautilus-window placessidebar row:selected button.sidebar-button {
-  color: rgba(86, 87, 245, 0.75);
+  color: #1777f5;
 }
 
 .nautilus-window placessidebar row:selected button.sidebar-button:hover, .nautilus-window placessidebar row:selected button.sidebar-button:active {
@@ -4379,17 +4379,17 @@ stacksidebar row > label {
 }
 
 .nautilus-window placessidebar row:selected button.sidebar-button:disabled {
-  color: rgba(86, 87, 245, 0.35);
+  color: rgba(23, 119, 245, 0.35);
 }
 
 .nautilus-window placessidebar row:selected button.sidebar-button:checked {
-  background-color: rgba(86, 87, 245, 0.1);
+  background-color: rgba(23, 119, 245, 0.1);
   color: #1777f5;
 }
 
 .nautilus-window placessidebar row:selected button.sidebar-button:checked:disabled {
-  background-color: rgba(86, 87, 245, 0.05);
-  color: rgba(86, 87, 245, 0.55);
+  background-color: rgba(23, 119, 245, 0.05);
+  color: rgba(23, 119, 245, 0.55);
 }
 
 row image.sidebar-icon {
@@ -4994,7 +4994,7 @@ button.emoji-section:hover {
 
 button.emoji-section:active, button.emoji-section:checked {
   box-shadow: inset 0 2px #1777f5;
-  background-image: radial-gradient(circle farthest-corner at center, rgba(86, 87, 245, 0.7) 10%, transparent 0%);
+  background-image: radial-gradient(circle farthest-corner at center, rgba(23, 119, 245, 0.7) 10%, transparent 0%);
 }
 
 button.emoji-section:checked {
@@ -5123,7 +5123,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window placessidebar row:hover label.sidebar-label {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .nautilus-window placessidebar row:backdrop {
@@ -5132,7 +5132,7 @@ button.emoji-section:last-child {
 
 .nautilus-window placessidebar row:selected label.sidebar-label {
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: #1777f5;
 }
 
 .nautilus-window placessidebar row:selected image.sidebar-icon {
@@ -5155,7 +5155,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window headerbar .path-bar-box {
-  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
+  background-image: linear-gradient(to bottom, #141414, #0A0A0A);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -5822,7 +5822,7 @@ ideeditorutilities > dzldockpaned > box > stackswitcher button {
 }
 
 ideeditorutilities > dzldockpaned > box > stackswitcher button:active {
-  background-image: radial-gradient(circle farthest-corner at center, rgba(86, 87, 245, 0.7) 10%, transparent 0%);
+  background-image: radial-gradient(circle farthest-corner at center, rgba(23, 119, 245, 0.7) 10%, transparent 0%);
 }
 
 ideeditorutilities > dzldockpaned > box > stackswitcher button:checked {
@@ -6213,7 +6213,7 @@ leaflet > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(.tw
 
 hdyleaflet > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(.tweak-group) row.activatable:selected,
 leaflet > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(.tweak-group) row.activatable:selected {
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: #1777f5;
   color: #ffffff;
 }
 
@@ -6570,7 +6570,7 @@ dialog.background.csd > box.dialog-vbox stack scrolledwindow viewport.frame.view
   border-radius: 3px;
   padding: 3px 10px;
   border: 2px solid #1777f5;
-  background-color: rgba(86, 87, 245, 0.1);
+  background-color: rgba(23, 119, 245, 0.1);
 }
 
 .nemo-window toolbar.primary-toolbar {
@@ -6622,7 +6622,7 @@ dialog.background.csd > box.dialog-vbox stack scrolledwindow viewport.frame.view
 .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:checked:disabled,
 .nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:checked:disabled {
   color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(86, 87, 245, 0.5);
+  background-color: rgba(23, 119, 245, 0.5);
 }
 
 .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop,
@@ -8730,7 +8730,7 @@ box.vertical > stack > box.vertical .raven-background > viewport.frame list > ro
 }
 
 box.vertical > stack > box.vertical .raven-background > viewport.frame list > row.activatable:selected {
-  background-color: rgba(86, 87, 245, 0.75);
+  background-color: rgba(23, 119, 245, 0.75);
 }
 
 box.vertical > stack > box.vertical .raven-background > viewport.frame list > row.activatable:selected > grid > *,
@@ -8763,7 +8763,7 @@ box.vertical > stack > box.vertical .raven-background > viewport.frame list > ro
 }
 
 box.vertical > stack > box.vertical .raven-background > viewport.frame list > row.activatable:selected list > row.activatable:selected {
-  background-color: rgba(86, 87, 245, 0.65);
+  background-color: rgba(23, 119, 245, 0.65);
 }
 
 .budgie-notification-window, .budgie-switcher-window, .budgie-osd-window {

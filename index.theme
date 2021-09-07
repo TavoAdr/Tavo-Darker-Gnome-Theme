@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Tavo-Darker
 MetacityTheme=Tavo-Darker
-IconTheme=Tavo's-Mixita
-CursorTheme=Tavo's-Mixta
+IconTheme=Tavo's-Mix
+CursorTheme=Tavo's-Mix
 ButtonLayout=menu:minimize,maximize,close

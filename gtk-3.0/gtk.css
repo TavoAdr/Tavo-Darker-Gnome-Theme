@@ -5146,7 +5146,7 @@ button.emoji-section:last-child {
 
 .nautilus-window headerbar {
   background-color: #000000;
-  background-image: url("assets/scalable/header-icon-dark.svg");
+  background-image: url("assets/scalable/header-icon.svg");
   background-size: 48px auto;
   background-repeat: no-repeat;
   background-position: left bottom;

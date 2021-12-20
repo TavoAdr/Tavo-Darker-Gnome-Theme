@@ -22,6 +22,7 @@
   transition-duration: 225ms;
 }
 
+
 stage {
   font-size: 9.75pt;
   font-weight: 400;
@@ -1297,12 +1298,12 @@ StScrollBar StButton#hhandle:active {
 }
 
 .clock-display-box {
-  spacing: 4px;
+  spacing: 0;
 }
 
 .clock-display-box .clock {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #calendarArea {
@@ -3849,3 +3850,4 @@ StScrollBar StButton#hhandle:active {
 .openweather-sunrise-icon, .openweather-sunset-icon, .openweather-build-icon {
   color: rgba(255, 255, 255, 0.7);
 }
+
